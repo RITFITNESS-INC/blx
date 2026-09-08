@@ -1,0 +1,22 @@
+.DS_Store
+**/.DS_Store
+
+# Local build output
+.build/
+
+# Vendor desktop runtimes are large, platform-specific, and reproducible from GiraffeIDE.
+**/libs/platform/*.dll
+**/libs/platform/*.exe
+
+# Reference projects only need their source and project metadata here.
+TR2_480480_waterfountain_circle/**/libs/platform/
+all_control_display_anim/libs/platform/
+uart_demo/libs/platform/
+
+# Generated copies also exist in firmware/; keep the build input template and TR2 link library.
+tension_knob_tr2/libs/platform/tr2grfui.mo
+tension_knob_tr2/libs/platform/tr2grfdata.bin
+
+# Superseded firmware packages; v1.2.0 is the supported release.
+firmware/tension_knob_tr2_v1.1.0.zip
+firmware/tension_knob_tr2_v1.1.1.zip

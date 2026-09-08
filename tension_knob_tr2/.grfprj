@@ -1,0 +1,21 @@
+project:    tension_knob_tr2
+init:
+{
+  "p_name" : "tension_knob_tr2",
+  "width" : 480,
+  "height" : 480,
+  "rotate" : 0,
+  "off_x" : 0,
+  "off_y" : 0,
+  "ctrl_max" : 64,
+  "language" : "zh",
+  "version" : "1.2.2.1",
+  "app_ver" : "1.0.0",
+  "comp_time" : "000000",
+  "show_en" : 0,
+  "start_page" : 1,
+  "views" : [ {
+    "pageId" : 1,
+    "pageName" : "tension.g"
+  } ]
+}

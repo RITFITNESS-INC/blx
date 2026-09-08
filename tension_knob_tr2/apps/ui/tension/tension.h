@@ -1,0 +1,28 @@
+#ifndef __TENSION_UI_H_
+#define __TENSION_UI_H_
+
+typedef enum {
+    TENSION_UI_NULL = 0,
+    TENSION_STATE_LABEL_ID = 1,
+    TENSION_MODE_PREV_BUTTON_ID = 2,
+    TENSION_MODE_LABEL_ID = 3,
+    TENSION_MODE_NEXT_BUTTON_ID = 4,
+    TENSION_VALUE_ARC_ID = 5,
+    TENSION_PARAMETER_LABEL_ID = 6,
+    TENSION_VALUE_LABEL_ID = 7,
+    TENSION_UNIT_LABEL_ID = 8,
+    TENSION_HINT_LABEL_ID = 9,
+    TENSION_FORCE_LABEL_ID = 10,
+    TENSION_SPEED_LABEL_ID = 11,
+    TENSION_POSITION_LABEL_ID = 12,
+    TENSION_PARAMETER_BUTTON_ID = 13,
+    TENSION_RUN_BUTTON_ID = 14
+} tension_ctrls_id_e;
+
+#define GRF_TENSION_ID 1
+
+void tension_init(void);
+void tension_entry(void);
+void tension_exit(void);
+
+#endif

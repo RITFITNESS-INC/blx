@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <defs>
+    <linearGradient id="arc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#36d7ff"/>
+      <stop offset="1" stop-color="#58e39b"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="240" cy="240" r="239" fill="#0b1020"/>
+  <text x="240" y="50" text-anchor="middle" fill="#66758f" font-size="20" font-family="sans-serif">读取设备状态...</text>
+  <rect x="70" y="73" width="74" height="42" rx="21" fill="#172440"/>
+  <rect x="336" y="73" width="74" height="42" rx="21" fill="#172440"/>
+  <text x="107" y="104" text-anchor="middle" fill="#9fb0cc" font-size="32">&lt;</text>
+  <text x="373" y="104" text-anchor="middle" fill="#9fb0cc" font-size="32">&gt;</text>
+  <text x="240" y="104" text-anchor="middle" fill="#ffffff" font-size="28" font-family="sans-serif">基础阻力</text>
+  <path d="M145 342 A135 135 0 1 1 335 342" fill="none" stroke="#263858" stroke-width="18" stroke-linecap="round"/>
+  <path d="M145 342 A135 135 0 0 1 123 183" fill="none" stroke="url(#arc)" stroke-width="18" stroke-linecap="round" filter="url(#glow)"/>
+  <text x="240" y="178" text-anchor="middle" fill="#9fb0cc" font-size="21" font-family="sans-serif">向心力</text>
+  <text x="240" y="249" text-anchor="middle" fill="#ffffff" font-size="68" font-weight="700" font-family="sans-serif">5.0</text>
+  <text x="240" y="286" text-anchor="middle" fill="#36d7ff" font-size="22" font-family="sans-serif">lb</text>
+  <text x="240" y="319" text-anchor="middle" fill="#66758f" font-size="16" font-family="sans-serif">正在读取设备状态</text>
+  <text x="112" y="358" text-anchor="middle" fill="#9fb0cc" font-size="17" font-family="sans-serif">拉力 --.- lb</text>
+  <text x="240" y="358" text-anchor="middle" fill="#9fb0cc" font-size="17" font-family="sans-serif">速度 --</text>
+  <text x="368" y="358" text-anchor="middle" fill="#9fb0cc" font-size="17" font-family="sans-serif">位置 --</text>
+</svg>
